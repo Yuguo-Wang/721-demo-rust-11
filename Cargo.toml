@@ -1,0 +1,10 @@
+[package]
+name = "csv-reader"
+version = "0.1.0"
+authors = ["Your Name <your.email@example.com>"]
+edition = "2018"
+
+[dependencies]
+tokio = { version = "1.14", features = ["full"] }
+# 或者
+async-std = { version = "1.12", features = ["attributes"] }
